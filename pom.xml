@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>net.sinou.test</groupId>
+	<artifactId>perso-test</artifactId>
+	<version>0.1.1-SNAPSHOT</version>
+	<name>Personal tests</name>
+	<packaging>pom</packaging>
+	<properties>
+		<version.perso-test>0.1.1-SNAPSHOT</version.perso-test>
+		<developmentCycle.perso-test>0.1</developmentCycle.perso-test>
+		<developmentCycle.perso-test.startDate>2017-06-15</developmentCycle.perso-test.startDate>
+		<!-- Encoding, see http://is.gd/mvn_source_encoding -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<modules>
+		<!-- Base -->
+		<module>net.sinou.tutorials</module>
+	</modules>
+	<scm>
+		<connection>scm:git:https://github.com/bsinou/perso-test.git</connection>
+		<url>https://github.com/bsinou/perso-test</url>
+		<developerConnection>scm:git:https://github.com/bsinou/perso-test.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+	<inceptionYear>2017</inceptionYear>
+	<licenses>
+		<license>
+			<name>Apache 2</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+			<comments><![CDATA[
+Copyright (C) 2017 Bruno SINOU
+
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+]]>
+			</comments>
+		</license>
+	</licenses>
+	<dependencies>
+	</dependencies>
+	<dependencyManagement>
+		<dependencies>
+		</dependencies>
+	</dependencyManagement>
+	<repositories>
+		<!-- Disable Maven default repository -->
+		<repository>
+			<id>central</id>
+			<url>http://repo1.maven.org/maven2</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>central</id>
+			<url>http://repo1.maven.org/maven2</url>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>daily</updatePolicy>
+				<checksumPolicy>warn</checksumPolicy>
+			</releases>
+		</pluginRepository>
+	</pluginRepositories>
+</project>
