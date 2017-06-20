@@ -11,13 +11,15 @@ While following the #100DaysOfCode trend is kind of motivating and challenging, 
 Github: Prepare a repo, basic code tree...
 
 ### Day 1
-Java: a little bit of theory after many years coding, basic doc, latest news and trends, some puzzles for the fun.
+Java: a little bit of theory to take a step back after many years coding: basic doc, latest news and trends, some puzzles for the fun.
+ - Good puzzles for Java 8 [here] (bit.ly/Puzzlers_vJUG)
 
 ### Day 2
 Gradle: Compare with maven. Check Groovy. Instrument basic repo with gradle builds. Manifest generation.
 
 ### Day 3
 Spring boot: all documentation and baby steps
+ - for the record a good overview can be found at the [root of the code on github] (https://github.com/spring-projects/spring-boot/blob/master/README.adoc)
 
 ### Day 4
 CentOS: Get a VPS, install centos, hardened it
@@ -27,7 +29,10 @@ CentOS: Get a VPS, install centos, hardened it
 
 ### Day 5
 Project management: 
- - learn basic github syntax for reach texts
+ - learn basic github syntax for rich texts
  - start this history log
  - define goals to be reached
 
+### Day 6
+ - Various Spring boot deployment options
+ - Deploy as service on CentOS7 behind an Apache proxy 
