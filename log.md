@@ -3,7 +3,7 @@
 ## Disclaimer
 The content of the file and generally of the full repository is an open slate where I record my steps while taking a break in my professional life as a developer to get an overview of the state of the art nowadays technologies and trend before starting new projects.
 
-While following the #100DaysOfCode trend is kind of motivating and challenging, it is not the main and only goal and rather a help to get motivated. Hence I might not respect all the official rules and limitations, but I don't care, as long as it help me going forwards. 
+While following the #100DaysOfCode trend is kind of motivating and challenging, it is not the main and only goal and rather a help to get motivated. Hence I might not respect all the official rules, especially the "at least one hour everyday" because of other things I have to do, mainly taking care of myself and my family and doing short-term contracts. 
 
 ## The Log, day by day
 
@@ -36,3 +36,7 @@ Project management:
 ### Day 6
  - Various Spring boot deployment options
  - Deploy as service on CentOS7 behind an Apache proxy 
+ 
+### Day 7 
+ - Some more java training and exercises
+ - Start another document to centralise interesting resources from the internet   
