@@ -6,7 +6,10 @@ import java.util.Collection;
 import java.util.List;
 import java.util.function.Predicate;
 
-/** Basic questions about generics */
+/**
+ * Basic questions about generics, must be run via -ea VM argument to check
+ * assertions
+ */
 public class BasicExercises {
 
 	/**
@@ -51,7 +54,7 @@ public class BasicExercises {
 		// Primary numbers
 		Predicate<Integer> isPrimaryNumber = (i -> true);
 		result = countElem(ints, isPrimaryNumber);
-		assert (result == 3);
+		assert (result == 5);
 	}
 
 	/**
