@@ -16,7 +16,10 @@ Here are specific links that are specially relevant for a given topic. Some link
 
 ### Memory management 
 
+- [A trail about specific management of memory for Strings] (http://www.javamex.com/tutorials/memory/string_memory_usage.shtml)
+
 ### Garbage collection
+- [Java Garbage Collection Basics](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html): A basic tutorial on GC on the Oracle website, that cannot been accessed through the generic tutorial pages.
 
 
 ## Java tutorials
