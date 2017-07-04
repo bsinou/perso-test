@@ -9,8 +9,9 @@ I will took no responsibility of any kind about using the below information, tha
 ## Generic resources 
 http://www.programmerinterview.com
 
-## Sample question list
+## Sample question lists
 - Quite painful to read because of the ads and blinking style, yet [a handful of interesting questions](http://javarevisited.blogspot.de/2015/10/133-java-interview-questions-answers-from-last-5-years.html)
+- 3 list of various short question/answers that cover a wide spectrum of potential basic questions:  [core 1](http://net-informations.com/java/cjava/cfaq.htm), [core 2](http://net-informations.com/java/cjava/clfaq.htm) and [core 3 (the most interesting)](http://net-informations.com/java/cjava/c3faq.htm). Note that some answers might be kind of wrong, typically out-dated when talking about Java8+... Do not take all provided answers as granted and rather refer to corresponding documentation or tutorial to double check if you do not now the answer.
 
 ### Beginner interview
 

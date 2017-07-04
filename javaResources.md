@@ -15,7 +15,7 @@ As usual, I will took no responsibility of any kind about using the below inform
 Here are specific links that are specially relevant for a given topic. Some links or website might appear more than once if they are relevant for the sub-category there are listed in...  
 
 ### The JVM
-- [An easy to read overview of the JVM](http://www.artima.com/insidejvm/ed2/jvm.html)
+- [An easy to read overview of the JVM](http://www.artima.com/insidejvm/ed2/jvm.html) - Yet a little bit out-dated for java 8+
 
 ### Memory management 
 
@@ -24,6 +24,10 @@ Here are specific links that are specially relevant for a given topic. Some link
 
 ### Garbage collection
 - [Java Garbage Collection Basics](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html): A basic tutorial on GC on the Oracle website, that cannot been accessed through the generic tutorial pages.
+
+### Eclipse IDE
+- [How to setup remote debugging in Eclipse](http://javarevisited.blogspot.de/2011/02/how-to-setup-remote-debugging-in.html#axzz4lmgRkvUo)
+
 
 
 ## Java tutorials
