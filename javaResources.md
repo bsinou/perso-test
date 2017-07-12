@@ -14,8 +14,22 @@ As usual, I will took no responsibility of any kind about using the below inform
 ## Resources by topic
 Here are specific links that are specially relevant for a given topic. Some links or website might appear more than once if they are relevant for the sub-category there are listed in...  
 
+
+
+### PMO
+- [Ways to Make Code Reviews More Effective](https://www.infoq.com/articles/effective-code-reviews)
+
+### Packaging and deployment
+- [Self-contained application tutorial @Oracle](https://docs.oracle.com/javase/8/docs/technotes/guides/deploy/self-contained-packaging.html)
+#### Docker
+- [Step by Step high Availability with Docker 1/2](https://community.oracle.com/docs/DOC-998210)
+- [Step by Step high Availability with Docker 2/2](https://community.oracle.com/docs/DOC-1008824)
+
 ### The JVM
 - [An easy to read overview of the JVM](http://www.artima.com/insidejvm/ed2/jvm.html) - Yet a little bit out-dated for java 8+
+
+### Security
+- (A cheat sheet with overview of security tools)[https://docs.oracle.com/javase/8/docs/technotes/guides/security/SecurityToolsSummary.html]
 
 ### Memory management 
 
@@ -28,7 +42,20 @@ Here are specific links that are specially relevant for a given topic. Some link
 ### Eclipse IDE
 - [How to setup remote debugging in Eclipse](http://javarevisited.blogspot.de/2011/02/how-to-setup-remote-debugging-in.html#axzz4lmgRkvUo)
 
+### Rest API
+- [5 basic guide lines](http://blog.restcase.com/5-basic-rest-api-design-guidelines)
+- [7 Rules for REST API URI Design](https://dzone.com/articles/7-rules-for-rest-api-uri-design-1)
+- [A look at the concurrence: GraphQL](https://apihandyman.io/and-graphql-for-all-a-few-things-to-think-about-before-blindly-dumping-rest-for-graphql/)
 
+
+### Java 8
+- [the lamda FAQ](http://www.lambdafaq.org)
+
+### Java 9
+- [Introduction to Jigsaw](http://openjdk.java.net/projects/jigsaw/quick-start)
+
+### Scripting language
+- [A quick overview of the YAML syntax](http://docs.ansible.com/ansible/YAMLSyntax.html)
 
 ## Java tutorials
 
