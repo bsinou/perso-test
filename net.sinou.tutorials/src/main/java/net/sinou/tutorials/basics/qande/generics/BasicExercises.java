@@ -115,12 +115,27 @@ public class BasicExercises {
 	/**
 	 * How do you invoke the following method to find the first integer in a
 	 * list that is relatively prime to a list of specified integers?
-	 * 
-	 * public static <T> int findFirst(List<T> list, int begin, int end,
-	 * UnaryPredicate<T> p)
-	 * 
+	 * <p>
+	 * <code>
+	 * public static &lt;T&gt; int findFirst(List&lt;T&gt; list, int begin, int
+	 * end, UnaryPredicate&lt;T&gt; p)
+	 *</code>
+	 * </p>
+	 *
 	 * Note that two integers a and b are relatively prime if gcd(a, b) = 1,
 	 * where gcd is short for greatest common divisor.
+	 *
+	 * @param <T>
+	 *            the type parameter
+	 * @param list
+	 *            a list of T objects
+	 * @param begin
+	 *            a int.
+	 * @param end
+	 *            a int.
+	 * @param p
+	 *            a {@link java.util.function.Predicate} object.
+	 * @return a int.
 	 */
 	public static <T> int findFirst(List<T> list, int begin, int end, Predicate<T> p) {
 		for (int j = begin; j <= end; j++) {
@@ -148,6 +163,14 @@ public class BasicExercises {
 		assert (result == 3);
 	}
 
+	/**
+	 * <p>
+	 * main.
+	 * </p>
+	 *
+	 * @param args
+	 *            an array of {@link java.lang.String} objects.
+	 */
 	public static void main(String[] args) {
 		BasicExercises exercises = new BasicExercises();
 		exercises.testCount();

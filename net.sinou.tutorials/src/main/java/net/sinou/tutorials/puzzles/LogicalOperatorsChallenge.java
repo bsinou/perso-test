@@ -5,7 +5,7 @@ package net.sinou.tutorials.puzzles;
  * statements, all conditions will be checked, even if the first condition is
  * false (in a &and; case) or true (in a | case). This can be useful when you
  * want to execute a command in every situation on your conditions.
- * 
+ *
  * The other lesson: when the incremental operator is before the variable, it
  * will increment in the line you used it, when you use the post incremental
  * operator it will increment in the next time you use the variable
@@ -14,8 +14,8 @@ public class LogicalOperatorsChallenge {
 
 	/**
 	 * Check and verify Logical operators conditions
-	 * 
-	 * @param args
+	 *
+	 * @param args an array of {@link java.lang.String} objects.
 	 */
 	public static void main(String[] args) {
 

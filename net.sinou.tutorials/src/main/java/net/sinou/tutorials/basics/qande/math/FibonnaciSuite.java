@@ -8,11 +8,18 @@ import java.util.TreeMap;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-/** Various examples of algorithms implementing the Fibonacci Number Suite */
+/**
+ * Various examples of algorithms implementing the Fibonacci Number Suite
+ */
 public class FibonnaciSuite {
 
 	private static long number = 1000;
 
+	/**
+	 * <p>main.</p>
+	 *
+	 * @param args an array of {@link java.lang.String} objects.
+	 */
 	public static void main(String[] args) {
 		FibonnaciSuite fs = new FibonnaciSuite();
 

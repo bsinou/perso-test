@@ -2,8 +2,9 @@ package net.sinou.tutorials.basics.qande.concurrency;
 
 /**
  * Basic usage of thread local as explained by J. Jenkov.
- * 
- * @see http://tutorials.jenkov.com/java-concurrency/threadlocal.html
+ *
+ * @see <a href="http://tutorials.jenkov.com/java-concurrency/threadlocal.html">
+ *      Jenkov's Tutorial</a>
  */
 public class BasicThreadLocalExemple {
 
@@ -22,6 +23,11 @@ public class BasicThreadLocalExemple {
 		}
 	}
 
+	/**
+	 * <p>main.</p>
+	 *
+	 * @param args an array of {@link java.lang.String} objects.
+	 */
 	public static void main(String[] args) {
 		try {
 

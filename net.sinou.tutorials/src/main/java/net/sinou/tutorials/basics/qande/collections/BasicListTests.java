@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * <p>BasicListTests class.</p>
+ */
 public class BasicListTests {
 
 	private void testListRemoval() {
@@ -34,6 +37,11 @@ public class BasicListTests {
 		}
 	}
 
+	/**
+	 * <p>main.</p>
+	 *
+	 * @param args an array of {@link java.lang.String} objects.
+	 */
 	public static void main(String[] args) {
 		BasicListTests btl = new BasicListTests();
 		btl.testListRemoval();

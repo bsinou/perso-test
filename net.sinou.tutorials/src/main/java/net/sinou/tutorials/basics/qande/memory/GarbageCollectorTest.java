@@ -5,6 +5,11 @@ package net.sinou.tutorials.basics.qande.memory;
  */
 public class GarbageCollectorTest {
 
+	/**
+	 * <p>main.</p>
+	 *
+	 * @param args an array of {@link java.lang.String} objects.
+	 */
 	public static void main(String[] args) {
 		HowManyObjectsWillBeCleanedByTheGarbageCollector gc = new GarbageCollectorTest().new HowManyObjectsWillBeCleanedByTheGarbageCollector();
 
@@ -46,10 +51,18 @@ public class GarbageCollectorTest {
 class Character {
 	private String talk;
 
+	/**
+	 * <p>Constructor for Character.</p>
+	 *
+	 * @param talk a {@link java.lang.String} object.
+	 */
 	public Character(String talk) {
 		this.talk = talk;
 	}
 
+	/**
+	 * <p>talk.</p>
+	 */
 	public void talk() {
 		System.out.println(this.talk);
 	}

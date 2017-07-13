@@ -12,6 +12,11 @@ import java.util.Map;
  */
 public class StreamPuzzle {
 
+	/**
+	 * <p>main.</p>
+	 *
+	 * @param args a {@link java.lang.String} object.
+	 */
 	public static void main(String... args) {
 
 		StreamPuzzle sp = new StreamPuzzle();

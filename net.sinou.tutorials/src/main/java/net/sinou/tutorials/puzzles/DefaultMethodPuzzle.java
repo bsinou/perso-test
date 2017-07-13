@@ -1,7 +1,12 @@
 package net.sinou.tutorials.puzzles;
 
+/** Tricky question: super call in this case in not the usual one */
 public class DefaultMethodPuzzle {
 
+	/**
+	 * @param args
+	 *            the app args...
+	 */
 	public static void main(String[] args) {
 
 		Prince prince = new Prince() {
@@ -23,15 +28,16 @@ public class DefaultMethodPuzzle {
 		prince.kill();
 	}
 
-	interface King {
+	private interface King {
 		default void kill() {
 			System.out.println("Sometimes you loose");
 		}
 	}
 
-	interface Prince extends King {
+	private interface Prince extends King {
 		@Override
 		default void kill() {
+			King.super.kill();
 			System.out.println("Kill them all");
 		}
 	}

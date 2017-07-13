@@ -4,8 +4,16 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * <p>CollectionRemoveIfEmpty class.</p>
+ */
 public class CollectionRemoveIfEmpty {
 
+	/**
+	 * <p>main.</p>
+	 *
+	 * @param args a {@link java.lang.String} object.
+	 */
 	public static void main(String... args) {
 		List<String> arrayList = new ArrayList<>();
 		arrayList.add("");

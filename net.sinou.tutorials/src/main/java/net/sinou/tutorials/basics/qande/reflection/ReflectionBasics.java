@@ -12,9 +12,16 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ConcurrentNavigableMap;
 
-/** Some patterns about reflections */
+/**
+ * Some patterns about reflections
+ */
 public class ReflectionBasics {
 
+	/**
+	 * <p>main.</p>
+	 *
+	 * @param args an array of {@link java.lang.String} objects.
+	 */
 	public static void main(String[] args) {
 		ReflectionBasics rb = new ReflectionBasics();
 		rb.testClassRetrieval();

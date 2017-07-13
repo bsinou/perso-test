@@ -11,6 +11,16 @@ import java.util.function.Predicate;
  */
 public class RelativePrimes {
 
+	/**
+	 * <p>findFirst.</p>
+	 *
+	 * @param list a {@link java.util.List} object.
+	 * @param begin a int.
+	 * @param end a int.
+	 * @param p a {@link java.util.function.Predicate} object.
+	 * @param <T> a T object.
+	 * @return a int.
+	 */
 	public static <T> int findFirst(List<T> list, int begin, int end, Predicate<T> p) {
 		for (; begin < end; ++begin)
 			if (p.test(list.get(begin)))
@@ -18,6 +28,13 @@ public class RelativePrimes {
 		return -1;
 	}
 
+	/**
+	 * <p>gcd.</p>
+	 *
+	 * @param x a int.
+	 * @param y a int.
+	 * @return a int.
+	 */
 	public static int gcd(int x, int y) {
 		// Nice way to find the gcd
 		for (int r; (r = x % y) != 0; x = y, y = r) {
@@ -48,6 +65,12 @@ public class RelativePrimes {
 		}
 	}
 
+	/**
+	 * <p>main.</p>
+	 *
+	 * @param args an array of {@link java.lang.String} objects.
+	 * @throws java.lang.Exception if any.
+	 */
 	public static void main(String[] args) throws Exception {
 
 		List<Integer> li = Arrays.asList(3, 4, 6, 8, 11, 15, 28, 32);

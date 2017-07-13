@@ -5,6 +5,9 @@ import java.util.Collection;
 import java.util.List;
 import java.util.function.Predicate;
 
+/**
+ * <p>TestGenerics class.</p>
+ */
 public class TestGenerics {
 
 	private interface Tester {
@@ -64,6 +67,11 @@ public class TestGenerics {
 		}
 	}
 
+	/**
+	 * <p>main.</p>
+	 *
+	 * @param varargs an array of {@link java.lang.String} objects.
+	 */
 	public static void main(String[] varargs) {
 		performTest("test #1", TestGenerics::test1);
 		performTest("test #2", TestGenerics::test2);

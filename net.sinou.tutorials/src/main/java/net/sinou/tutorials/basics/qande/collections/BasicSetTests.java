@@ -3,6 +3,9 @@ package net.sinou.tutorials.basics.qande.collections;
 import java.util.NavigableSet;
 import java.util.TreeSet;
 
+/**
+ * <p>BasicSetTests class.</p>
+ */
 public class BasicSetTests {
 
 	private void testSetRemoval() {
@@ -21,6 +24,11 @@ public class BasicSetTests {
 		System.out.format("Polled elem: %s\nOriginal after poll on descending: %s", val, original.toString());
 	}
 
+	/**
+	 * <p>main.</p>
+	 *
+	 * @param args an array of {@link java.lang.String} objects.
+	 */
 	public static void main(String[] args) {
 		BasicSetTests bst = new BasicSetTests();
 		bst.testSetRemoval();

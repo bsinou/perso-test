@@ -3,9 +3,16 @@ package net.sinou.tutorials.puzzles;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Very useless puzzle... Just a typo in the comparing String */
+/**
+ * Very useless puzzle... Just a typo in the comparing String
+ */
 public class MethodRefPuzzle {
 
+	/**
+	 * <p>main.</p>
+	 *
+	 * @param args an array of {@link java.lang.String} objects.
+	 */
 	public static void main(String[] args) {
 
 		List<Talker> talkers = new ArrayList<>();

@@ -8,19 +8,24 @@ import java.util.stream.Collectors;
 
 /**
  * Patterns and tests for Lambdas and method references:
- * 
+ *
  * Quote from:
  * https://www.ibm.com/developerworks/library/j-java8idioms5/index.html
  * "Whenever you see a lambda expression whose sole purpose is to pass
  * parameters to one or more other functions, consider whether that lambda would
  * be better replaced by a method reference.
- * 
+ *
  * The deciding factor is that no real work is being done inside the lambda
  * expression. In that case, the lambda expression is a pass-through, and the
  * syntax is probably too complex for the task at hand."
  */
 public class PassThrough {
 
+	/**
+	 * <p>main.</p>
+	 *
+	 * @param args an array of {@link java.lang.String} objects.
+	 */
 	public static void main(String[] args) {
 
 		PassThrough pt = new PassThrough();

@@ -14,10 +14,9 @@ As usual, I will took no responsibility of any kind about using the below inform
 ## Resources by topic
 Here are specific links that are specially relevant for a given topic. Some links or website might appear more than once if they are relevant for the sub-category there are listed in...  
 
-
-
 ### PMO
 - [Ways to Make Code Reviews More Effective](https://www.infoq.com/articles/effective-code-reviews)
+- [Oracle reference for javadoc](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html)
 
 ### Packaging and deployment
 - [Self-contained application tutorial @Oracle](https://docs.oracle.com/javase/8/docs/technotes/guides/deploy/self-contained-packaging.html)

@@ -6,13 +6,18 @@ import java.util.regex.Pattern;
 
 /**
  * Enable 'live' testing of regular expressions
- * 
+ *
  * @see <a href=
  *      "https://docs.oracle.com/javase/tutorial/essential/regex/test_harness.html">
  *      Oracle tutorial on regexp</a>
  */
 public class RegexTestHarness {
 
+	/**
+	 * <p>main.</p>
+	 *
+	 * @param args an array of {@link java.lang.String} objects.
+	 */
 	public static void main(String[] args) {
 		Console console = System.console();
 		if (console == null) {

@@ -6,19 +6,26 @@ import java.util.List;
 /**
  * Simple basic class to observe side effect of intense multi-threading as
  * described by Jenkov:
- * 
+ *
  * A thread needs some resources from the computer in order to run. Besides CPU
  * time a thread needs some memory to keep its local stack. It may also take up
  * some resources inside the operating system needed to manage the thread. Try
  * creating a program that creates 100 threads that does nothing but wait, and
  * see how much memory the application takes when running.
- * 
- * @see http://tutorials.jenkov.com/java-concurrency/costs.html
+ *
+ * @see <a href="http://tutorials.jenkov.com/java-concurrency/costs.html">
+ *      Jenkov's Tutorial</a>
  */
 public class IncreasedResourceConsumptionTest {
 
 	static FairLock lock;
 
+	/**
+	 * <p>main.</p>
+	 *
+	 * @param args
+	 *            an array of {@link java.lang.String} objects.
+	 */
 	public static void main(String[] args) {
 
 		IncreasedResourceConsumptionTest irct = new IncreasedResourceConsumptionTest();
@@ -44,10 +51,11 @@ public class IncreasedResourceConsumptionTest {
 
 		public void doSynchronized() throws InterruptedException {
 			lock.lock();
-			// System.out.println("Before waiting in " + MyThread.this.getName());
+			// System.out.println("Before waiting in " +
+			// MyThread.this.getName());
 			System.out.print("Basic waiting in " + MyThread.this.getName() + ": ");
 			for (int i = 0; i < 100000000; i++)
-				if (i%1000000 == 0)
+				if (i % 1000000 == 0)
 					System.out.print(".");
 			System.out.print("\n");
 			lock.unlock();

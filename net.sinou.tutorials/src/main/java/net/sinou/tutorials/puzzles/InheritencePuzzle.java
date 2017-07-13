@@ -1,10 +1,17 @@
 package net.sinou.tutorials.puzzles;
 
-/** Verify answer for the puzzle of the day, see #100DaysOfJava */
+/**
+ * Verify answer for the puzzle of the day, see #100DaysOfJava
+ */
 public class InheritencePuzzle {
 
 	static final int FORCE = 10;
 
+	/**
+	 * <p>main.</p>
+	 *
+	 * @param args an array of {@link java.lang.String} objects.
+	 */
 	public static void main(String[] args) {
 
 		DV dv = new DV() {
