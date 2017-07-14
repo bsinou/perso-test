@@ -31,12 +31,12 @@ Here are specific links that are specially relevant for a given topic. Some link
 - (A cheat sheet with overview of security tools)[https://docs.oracle.com/javase/8/docs/technotes/guides/security/SecurityToolsSummary.html]
 
 ### Memory management 
-
 - [A trail about specific management of memory for Strings](http://www.javamex.com/tutorials/memory/string_memory_usage.shtml)
 - [A very basic overview of the difference between heap and stack memory](http://net-informations.com/java/cjava/memory.htm)
 
 ### Garbage collection
 - [Java Garbage Collection Basics](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html): A basic tutorial on GC on the Oracle website, that cannot been accessed through the generic tutorial pages.
+- [Taming G1GC](http://product.hubspot.com/blog/g1gc-fundamentals-lessons-from-taming-garbage-collection)
 
 ### Eclipse IDE
 - [How to setup remote debugging in Eclipse](http://javarevisited.blogspot.de/2011/02/how-to-setup-remote-debugging-in.html#axzz4lmgRkvUo)
@@ -45,7 +45,6 @@ Here are specific links that are specially relevant for a given topic. Some link
 - [5 basic guide lines](http://blog.restcase.com/5-basic-rest-api-design-guidelines)
 - [7 Rules for REST API URI Design](https://dzone.com/articles/7-rules-for-rest-api-uri-design-1)
 - [A look at the concurrence: GraphQL](https://apihandyman.io/and-graphql-for-all-a-few-things-to-think-about-before-blindly-dumping-rest-for-graphql/)
-
 
 ### Java 8
 - [the lamda FAQ](http://www.lambdafaq.org)
