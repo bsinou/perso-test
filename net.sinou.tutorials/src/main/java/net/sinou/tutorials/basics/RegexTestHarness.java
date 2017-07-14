@@ -7,16 +7,23 @@ import java.util.regex.Pattern;
 /**
  * Enable 'live' testing of regular expressions
  *
+ * Note: The word "class" in the phrase "character class" does not refer
+ * to a .class file. In the context of regular expressions, a character class is
+ * a set of characters enclosed within square brackets. It specifies the
+ * characters that will successfully match a single character from a given input
+ * string.
+ *
  * @see <a href=
  *      "https://docs.oracle.com/javase/tutorial/essential/regex/test_harness.html">
  *      Oracle tutorial on regexp</a>
+ * 
+ * 
  */
 public class RegexTestHarness {
 
 	/**
-	 * <p>main.</p>
-	 *
-	 * @param args an array of {@link java.lang.String} objects.
+	 * @param args
+	 *            an array of {@link java.lang.String} objects.
 	 */
 	public static void main(String[] args) {
 		Console console = System.console();
