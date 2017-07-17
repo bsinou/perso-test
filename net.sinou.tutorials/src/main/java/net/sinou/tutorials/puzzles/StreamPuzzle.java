@@ -2,9 +2,11 @@ package net.sinou.tutorials.puzzles;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.function.Consumer;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -16,9 +18,6 @@ import java.util.stream.Stream;
 public class StreamPuzzle {
 
 	/**
-	 * <p>
-	 * main.
-	 * </p>
 	 *
 	 * @param args
 	 *            a {@link java.lang.String} object.
@@ -29,6 +28,8 @@ public class StreamPuzzle {
 		sp.map1();
 		sp.map2();
 		sp.consumerPuzzle();
+		sp.simpsonPuzzle();
+		sp.optionalPuzzle();
 	}
 
 	/** What will be printed? */
@@ -79,5 +80,38 @@ public class StreamPuzzle {
 		// The same result with streams and functional programming
 		System.out.println(Stream.of("D", "A", "T").peek(System.out::println).filter(e -> !e.matches("T"))
 				.collect(Collectors.toList()));
+	}
+
+	private void simpsonPuzzle() {
+		System.out.println("== Simpson Puzzle");
+
+		List<Simpson> list = Arrays.asList(new Simpson("Homer", 35), new Simpson("Maggie", 30), new Simpson("Bart", 10),
+				new Simpson("Lisa", 8));
+		Integer simpsonAge = list.stream().map(e -> e.age).filter(age -> age >= 20).min(Comparator.naturalOrder())
+				.get();
+		System.out.println(Optional.of(simpsonAge).orElse(2));
+	}
+
+	private static class Simpson {
+
+		int age;
+		@SuppressWarnings("unused")
+		String name;
+
+		public Simpson(String name, int age) {
+			this.name = name;
+			this.age = age;
+		}
+	}
+
+	private void optionalPuzzle() {
+		System.out.println("== Optional Puzzle");
+
+		List<String> list = Arrays.asList("A", "B", "M", "W");
+		Optional<String> op = list.stream().findFirst();
+		Optional<String> op2 = list.stream().filter(e -> e.equals("N")).findAny();
+
+		System.out.println(op.orElse(""));
+		System.out.println(op2.orElse("Double"));
 	}
 }
