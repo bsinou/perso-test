@@ -15,7 +15,7 @@ import java.util.stream.Stream;
  * Test and verify various puzzles gathered on the internet via the
  * #100DaysOfJava hashtag
  */
-public class StreamPuzzle {
+public class StreamPuzzles {
 
 	/**
 	 *
@@ -24,7 +24,7 @@ public class StreamPuzzle {
 	 */
 	public static void main(String... args) {
 
-		StreamPuzzle sp = new StreamPuzzle();
+		StreamPuzzles sp = new StreamPuzzles();
 		sp.map1();
 		sp.map2();
 		sp.consumerPuzzle();
