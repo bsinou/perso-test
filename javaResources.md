@@ -20,6 +20,7 @@ Here are specific links that are specially relevant for a given topic. Some link
 
 ### Packaging and deployment
 - [Self-contained application tutorial @Oracle](https://docs.oracle.com/javase/8/docs/technotes/guides/deploy/self-contained-packaging.html)
+
 #### Docker
 - [Step by Step high Availability with Docker 1/2](https://community.oracle.com/docs/DOC-998210)
 - [Step by Step high Availability with Docker 2/2](https://community.oracle.com/docs/DOC-1008824)
@@ -28,7 +29,7 @@ Here are specific links that are specially relevant for a given topic. Some link
 - [An easy to read overview of the JVM](http://www.artima.com/insidejvm/ed2/jvm.html) - Yet a little bit out-dated for java 8+
 
 ### Security
-- (A cheat sheet with overview of security tools)[https://docs.oracle.com/javase/8/docs/technotes/guides/security/SecurityToolsSummary.html]
+- [A cheat sheet with overview of security tools](https://docs.oracle.com/javase/8/docs/technotes/guides/security/SecurityToolsSummary.html)
 
 ### Memory management 
 - [A trail about specific management of memory for Strings](http://www.javamex.com/tutorials/memory/string_memory_usage.shtml)
@@ -45,6 +46,12 @@ Here are specific links that are specially relevant for a given topic. Some link
 - [5 basic guide lines](http://blog.restcase.com/5-basic-rest-api-design-guidelines)
 - [7 Rules for REST API URI Design](https://dzone.com/articles/7-rules-for-rest-api-uri-design-1)
 - [A look at the concurrence: GraphQL](https://apihandyman.io/and-graphql-for-all-a-few-things-to-think-about-before-blindly-dumping-rest-for-graphql/)
+
+### Patterns
+- [Functional Programming vs GoF](https://blog.jooq.org/2016/07/04/how-functional-programming-will-finally-do-away-with-the-gof-patterns/)
+
+### Regexp
+- [A good overview with a cheat sheet](http://regexr.com/)
 
 ### Java 8
 - [the lamda FAQ](http://www.lambdafaq.org)
