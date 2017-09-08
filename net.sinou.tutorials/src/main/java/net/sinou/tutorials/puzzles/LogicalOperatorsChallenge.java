@@ -1,24 +1,33 @@
 package net.sinou.tutorials.puzzles;
 
 /**
- * Remarkable point of this puzzle: when using bitwise operators in condition
- * statements, all conditions will be checked, even if the first condition is
- * false (in a &and; case) or true (in a | case). This can be useful when you
- * want to execute a command in every situation on your conditions.
+ * Remarkable point of this puzzle:
+ * 
+ * when using bitwise operators in condition statements, all conditions will be
+ * checked, even if the first condition is false (in a &and; case) or true (in a
+ * | case). This can be useful when you want to execute a command in every
+ * situation on your conditions.
  *
- * The other lesson: when the incremental operator is before the variable, it
- * will increment in the line you used it, when you use the post incremental
- * operator it will increment in the next time you use the variable
+ * when the incremental operator is before the variable, it will increment in
+ * the line you used it, when you use the post incremental operator it will have
+ * been incremented by the next time you use the variable
  */
 public class LogicalOperatorsChallenge {
 
 	/**
 	 * Check and verify Logical operators conditions
 	 *
-	 * @param args an array of {@link java.lang.String} objects.
+	 * @param args
+	 *            an array of {@link java.lang.String} objects.
 	 */
 	public static void main(String[] args) {
 
+		LogicalOperatorsChallenge loc = new LogicalOperatorsChallenge();
+
+		loc.bitwise();
+	}
+
+	private void bitwise() {
 		int a = 10;
 		int b = 5;
 
@@ -36,5 +45,6 @@ public class LogicalOperatorsChallenge {
 			a++;
 
 		System.out.println(a + b + c);
+
 	}
 }
