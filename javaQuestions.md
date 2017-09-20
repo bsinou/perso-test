@@ -7,7 +7,8 @@ I will took no responsibility of any kind about using the below information, tha
 
 
 ## Generic resources 
-http://www.programmerinterview.com
+- [Hacker Rank](hackerrank.com): A nice web site with tutorials and corrected exercices to master the interviews
+- [Programmer interview questions](http://www.programmerinterview.com)
 
 ## Sample question lists
 - Quite painful to read because of the ads and blinking style, yet [a handful of interesting questions](http://javarevisited.blogspot.de/2015/10/133-java-interview-questions-answers-from-last-5-years.html)
