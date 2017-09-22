@@ -5,22 +5,24 @@ import java.util.Collection;
 import java.util.List;
 import java.util.function.Predicate;
 
-/**
- * <p>TestGenerics class.</p>
- */
+/** Patterns and exercises about generics */
 public class TestGenerics {
 
-	private interface Tester {
-		void test();
+	/** Launches the tests */
+	public static void main(String[] varargs) {
+		performTest("test #1", TestGenerics::test1);
+		performTest("test #2", TestGenerics::test2);
+		performTest("test #3", TestGenerics::test3);
 	}
 
+	/* REAL TESTS */
 	private static void test1() {
 		System.out.format("This is a test %03.3f%n", 8f);
 	}
 
 	/**
-	 * Write a generic method to count the number of elements in a collection
-	 * that have a specific property (for example, odd integers, prime numbers,
+	 * Write a generic method to count the number of elements in a collection that
+	 * have a specific property (for example, odd integers, prime numbers,
 	 * palindromes).
 	 */
 	private static void test2() {
@@ -39,8 +41,8 @@ public class TestGenerics {
 	}
 
 	/**
-	 * Write a generic method to exchange the positions of two different
-	 * elements in an array.
+	 * Write a generic method to exchange the positions of two different elements in
+	 * an array.
 	 */
 	private static void test3() {
 		Integer[] intArray = { 1, 2, 3, 4, 5 };
@@ -67,18 +69,11 @@ public class TestGenerics {
 		}
 	}
 
-	/**
-	 * <p>main.</p>
-	 *
-	 * @param varargs an array of {@link java.lang.String} objects.
-	 */
-	public static void main(String[] varargs) {
-		performTest("test #1", TestGenerics::test1);
-		performTest("test #2", TestGenerics::test2);
-		performTest("test #3", TestGenerics::test3);
+	/* EASE TESTING with functional programming */
+	private interface Tester {
+		void test();
 	}
 
-	// Helpers
 	private static void performTest(String name, Tester currTest) {
 		System.out.format("Performing %s: %n", name);
 		currTest.test();
@@ -95,4 +90,5 @@ public class TestGenerics {
 		else
 			return "";
 	}
+
 }
