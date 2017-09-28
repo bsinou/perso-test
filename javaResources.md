@@ -27,9 +27,8 @@ Here are specific links that are specially relevant for a given topic. Some link
 
 ### The JVM
 - [An easy to read overview of the JVM](http://www.artima.com/insidejvm/ed2/jvm.html) - Yet a little bit out-dated for java 8+
-
-### Security
-- [A cheat sheet with overview of security tools](https://docs.oracle.com/javase/8/docs/technotes/guides/security/SecurityToolsSummary.html)
+- [Another clear and concise overview on DZone](https://dzone.com/articles/jvm-architecture-explained)
+- [JVM details overview](http://www.letustweak.com/tutorials/jvm-details/)
 
 ### Memory management 
 - [A trail about specific management of memory for Strings](http://www.javamex.com/tutorials/memory/string_memory_usage.shtml)
@@ -38,6 +37,17 @@ Here are specific links that are specially relevant for a given topic. Some link
 ### Garbage collection
 - [Java Garbage Collection Basics](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html): A basic tutorial on GC on the Oracle website, that cannot been accessed through the generic tutorial pages.
 - [Taming G1GC](http://product.hubspot.com/blog/g1gc-fundamentals-lessons-from-taming-garbage-collection)
+
+### Security
+- [A cheat sheet with overview of security tools](https://docs.oracle.com/javase/8/docs/technotes/guides/security/SecurityToolsSummary.html)
+
+### QA
+- [JUnit basics](http://www.vogella.com/tutorials/JUnit/article.html)
+- [Mockito basics](http://www.vogella.com/tutorials/Mockito/article.html)
+- To get the [difference between Mock and Stub](https://martinfowler.com/articles/mocksArentStubs.html) 
+
+### Documentation 
+- [The official Oracle How-To](http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html): rules and best practices to write correct JavaDoc 
 
 ### Eclipse IDE
 - [How to setup remote debugging in Eclipse](http://javarevisited.blogspot.de/2011/02/how-to-setup-remote-debugging-in.html#axzz4lmgRkvUo)
@@ -54,7 +64,7 @@ Here are specific links that are specially relevant for a given topic. Some link
 - [A good overview with a cheat sheet](http://regexr.com/)
 
 ### Java 8
-- [the lamda FAQ](http://www.lambdafaq.org)
+- [the lambda FAQ](http://www.lambdafaq.org)
 
 ### Java 9
 - [Introduction to Jigsaw](http://openjdk.java.net/projects/jigsaw/quick-start)
@@ -65,4 +75,10 @@ Here are specific links that are specially relevant for a given topic. Some link
 ## Java tutorials
 
 - The must-read for any Java developer: [The Java tutorials on Oracle website](http://docs.oracle.com/javase/tutorial/index.html)
-- [A very good alternative from J. Jenkov](http://tutorials.jenkov.com/)
+- [A very good alternative from J. Jenkov](http://tutorials.jenkov.com/java)
+- [Official JavaEE 8 tutorial](https://javaee.github.io/tutorial/)on Github
+
+## To go further
+
+### Discussion and debates
+- [JavaEE vs Spring](https://www.linkedin.com/pulse/j2ee-javaee-vs-spring-hibernate-ian-dai/)

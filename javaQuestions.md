@@ -9,6 +9,7 @@ I will took no responsibility of any kind about using the below information, tha
 - [Hacker Rank](hackerrank.com): A nice web site with tutorials and corrected exercises to master the interviews
 - [Programmer interview questions](http://www.programmerinterview.com)
 - Some [Regex challenges](http://callumacrae.github.io/regex-tuesday/)
+- A large source a Math / Algorithm problems: [Project Euler](https://projecteuler.net) 
 
 ## Sample question lists
 - Quite painful to read because of the ads and blinking style, yet [a handful of interesting questions](http://javarevisited.blogspot.de/2015/10/133-java-interview-questions-answers-from-last-5-years.html)
