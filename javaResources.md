@@ -78,6 +78,19 @@ Here are specific links that are specially relevant for a given topic. Some link
 - [A very good alternative from J. Jenkov](http://tutorials.jenkov.com/java)
 - [Official JavaEE 8 tutorial](https://javaee.github.io/tutorial/)on Github
 
+## Spring Framework resources
+
+The main documentation is well done, with among other:
+
+- [The reference documentation](https://spring.io/docs/reference)
+- [Many tutorials](https://spring.io/guides)
+
+### Good generic overviews
+- [About annotations](https://dzone.com/articles/a-guide-to-spring-framework-annotations)
+- [About @RequestMapping annotation](https://springframework.guru/spring-requestmapping-annotation/)
+
+
+
 ## To go further
 
 ### Discussion and debates
