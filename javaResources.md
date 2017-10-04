@@ -41,6 +41,10 @@ Here are specific links that are specially relevant for a given topic. Some link
 ### Security
 - [A cheat sheet with overview of security tools](https://docs.oracle.com/javase/8/docs/technotes/guides/security/SecurityToolsSummary.html)
 
+About OAuth:
+- [Nice overview from Jenkov](http://tutorials.jenkov.com/oauth2/index.html)
+- [A famous vulgarisation from Aaron Parecki](https://aaronparecki.com/oauth-2-simplified/)
+
 ### QA
 - [JUnit basics](http://www.vogella.com/tutorials/JUnit/article.html)
 - [Mockito basics](http://www.vogella.com/tutorials/Mockito/article.html)
