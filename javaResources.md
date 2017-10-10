@@ -36,6 +36,7 @@ Here are specific links that are specially relevant for a given topic. Some link
 
 ### Garbage collection
 - [Java Garbage Collection Basics](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html): A basic tutorial on GC on the Oracle website, that cannot been accessed through the generic tutorial pages.
+- [The G1GC basics](http://www.oracle.com/technetwork/tutorials/tutorials-1876574.html) on Oracle's website
 - [Taming G1GC](http://product.hubspot.com/blog/g1gc-fundamentals-lessons-from-taming-garbage-collection)
 
 ### Security
@@ -92,7 +93,7 @@ The main documentation is well done, with among other:
 ### Good generic overviews
 - [About annotations](https://dzone.com/articles/a-guide-to-spring-framework-annotations)
 - [About @RequestMapping annotation](https://springframework.guru/spring-requestmapping-annotation/)
-
+- [An introduction to thymeleaf](http://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#introducing-thymeleaf): a module developed by Daniel Fernnadez [@danfez](http://twitter.com/danfenz), a spanish guy who also contributed [jasypt](http://jasypt.org/) the encryption basic plugin for the SpringFramework (rien que ca :)...
 
 
 ## To go further
