@@ -81,22 +81,40 @@ About OAuth:
 
 - The must-read for any Java developer: [The Java tutorials on Oracle website](http://docs.oracle.com/javase/tutorial/index.html)
 - [A very good alternative from J. Jenkov](http://tutorials.jenkov.com/java)
-- [Official JavaEE 8 tutorial](https://javaee.github.io/tutorial/)on Github
+- [Official JavaEE 8 tutorial](https://javaee.github.io/tutorial/) on Github
+
+## DevOps
+
+### Gradle
+- Gradle [User Guide](https://docs.gradle.org/current/userguide/userguide.html)
+- [the Groovy language](http://docs.groovy-lang.org/latest/html/documentation/index.html#_introduction)
+
+### Maven
 
 ## Spring Framework resources
 
-The main documentation is well done, with among other:
+Main documentation for reference, with among other:
 
 - [The reference documentation](https://spring.io/docs/reference)
 - [Many tutorials](https://spring.io/guides)
 
 ### Good generic overviews
+- [An in depth explanation](https://docs.spring.io/spring/docs/5.0.0.RELEASE/spring-framework-reference/core.html#spring-core) of Spring framework core concepts (IoC and AOP)
 - [About annotations](https://dzone.com/articles/a-guide-to-spring-framework-annotations)
 - [About @RequestMapping annotation](https://springframework.guru/spring-requestmapping-annotation/)
-- [An introduction to thymeleaf](http://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#introducing-thymeleaf): a module developed by Daniel Fernnadez [@danfez](http://twitter.com/danfenz), a spanish guy who also contributed [jasypt](http://jasypt.org/) the encryption basic plugin for the SpringFramework (rien que ca :)...
+- [An introduction to thymeleaf](http://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#introducing-thymeleaf): a module developed by Daniel Fernandez [@danfez](http://twitter.com/danfenz), a spanish guy who also contributed [jasypt](http://jasypt.org/) the encryption basic plugin for the SpringFramework (rien que ca :)...
+
+### Spring Batch
+- The [reference documentation](https://docs.spring.io/spring-batch/trunk/reference/html) on [spring.io](https://docs.spring.io) website
+- An in-depth [introduction to batch within Java EE 7](https://jaxenter.com/java-ee-7-introduction-to-batch-jsr-352-106192.html)
+- Another [Overview of the underlying JSR 352 concepts](https://blogs.oracle.com/arungupta/batch-applications-in-java-ee-7-undertanding-jsr-352-concepts:-totd-192) that are now implemented by the Spring Batch project 
 
 
 ## To go further
+
+### Some important Java libraries
+- [CGLib](https://dzone.com/articles/cglib-missing-manual): the byte code instrumentation library used by Spring, among others
+
 
 ### Discussion and debates
 - [JavaEE vs Spring](https://www.linkedin.com/pulse/j2ee-javaee-vs-spring-hibernate-ian-dai/)

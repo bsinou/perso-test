@@ -16,7 +16,6 @@ I will took no responsibility of any kind about using the below information, tha
 - 3 list of various short question/answers that cover a wide spectrum of potential basic questions:  [core 1](http://net-informations.com/java/cjava/cfaq.htm), [core 2](http://net-informations.com/java/cjava/clfaq.htm) and [core 3 (the most interesting)](http://net-informations.com/java/cjava/c3faq.htm). Note that some answers might be kind of wrong, typically out-dated when talking about Java8+... Do not take all provided answers as granted and rather refer to corresponding documentation or tutorial to double check if you do not now the answer.
 
 ### Beginner interview
-
 - Various types of collections
 - Difference between a set and list
 - Difference between heap and stack memory
