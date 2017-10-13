@@ -70,6 +70,7 @@ About OAuth:
 
 ### Java 8
 - [the lambda FAQ](http://www.lambdafaq.org)
+- An [interesting JavaOne 2017 conference](https://www.youtube.com/watch?v=PbIBYxVyWNs) on Lambda expressions
 
 ### Java 9
 - [Introduction to Jigsaw](http://openjdk.java.net/projects/jigsaw/quick-start)
@@ -92,9 +93,7 @@ About OAuth:
 ### Maven
 
 ## Spring Framework resources
-
 Main documentation for reference, with among other:
-
 - [The reference documentation](https://spring.io/docs/reference)
 - [Many tutorials](https://spring.io/guides)
 
@@ -103,6 +102,9 @@ Main documentation for reference, with among other:
 - [About annotations](https://dzone.com/articles/a-guide-to-spring-framework-annotations)
 - [About @RequestMapping annotation](https://springframework.guru/spring-requestmapping-annotation/)
 - [An introduction to thymeleaf](http://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#introducing-thymeleaf): a module developed by Daniel Fernandez [@danfez](http://twitter.com/danfenz), a spanish guy who also contributed [jasypt](http://jasypt.org/) the encryption basic plugin for the SpringFramework (rien que ca :)...
+
+### Spring configuration
+- A [comparaison](https://blog.codecentric.de/en/2012/07/spring-dependency-injection-styles-why-i-love-java-based-configuration/) between XML and annotation defined configuration 
 
 ### Spring Batch
 - The [reference documentation](https://docs.spring.io/spring-batch/trunk/reference/html) on [spring.io](https://docs.spring.io) website
