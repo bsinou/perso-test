@@ -53,6 +53,7 @@ About OAuth:
 
 ### Documentation 
 - [The official Oracle How-To](http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html): rules and best practices to write correct JavaDoc 
+- The wiki markdown [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code) on github
 
 ### Eclipse IDE
 - [How to setup remote debugging in Eclipse](http://javarevisited.blogspot.de/2011/02/how-to-setup-remote-debugging-in.html#axzz4lmgRkvUo)
@@ -107,10 +108,10 @@ Main documentation for reference, with among other:
 - A [comparaison](https://blog.codecentric.de/en/2012/07/spring-dependency-injection-styles-why-i-love-java-based-configuration/) between XML and annotation defined configuration 
 
 ### Spring Batch
+- A [very complete list of resources](https://www.petrikainulainen.net/spring-batch-the-ultimate-resource/#get-started) to dive in.
 - The [reference documentation](https://docs.spring.io/spring-batch/trunk/reference/html) on [spring.io](https://docs.spring.io) website
 - An in-depth [introduction to batch within Java EE 7](https://jaxenter.com/java-ee-7-introduction-to-batch-jsr-352-106192.html)
 - Another [Overview of the underlying JSR 352 concepts](https://blogs.oracle.com/arungupta/batch-applications-in-java-ee-7-undertanding-jsr-352-concepts:-totd-192) that are now implemented by the Spring Batch project 
-
 
 ## To go further
 
