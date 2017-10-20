@@ -8,7 +8,12 @@ import java.util.function.Predicate;
 /** Patterns and exercises about generics */
 public class TestGenerics {
 
-	/** Launches the tests */
+	/**
+	 * Launches the tests
+	 * 
+	 * @param varargs
+	 *            launcher parameters
+	 */
 	public static void main(String[] varargs) {
 		performTest("test #1", TestGenerics::test1);
 		performTest("test #2", TestGenerics::test2);

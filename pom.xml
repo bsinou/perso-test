@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>net.sinou.test</groupId>
+	<groupId>net.sinou</groupId>
 	<artifactId>perso-test</artifactId>
 	<version>0.1.1-SNAPSHOT</version>
 	<name>Personal tests</name>
@@ -19,7 +19,8 @@
 	</properties>
 	<modules>
 		<!-- Various tutorials -->
-		<module>net.sinou.tutorials</module>
+		<module>tutorials</module>
+		<module>playground</module>
 	</modules>
 	<scm>
 		<connection>scm:git:https://github.com/bsinou/perso-test.git</connection>

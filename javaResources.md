@@ -72,6 +72,7 @@ About OAuth:
 ### Java 8
 - [the lambda FAQ](http://www.lambdafaq.org)
 - An [interesting JavaOne 2017 conference](https://www.youtube.com/watch?v=PbIBYxVyWNs) on Lambda expressions
+- An introduction to [Spliterators](https://blog.logentries.com/2015/10/java-8-introduction-to-parallelism-and-spliterator/)
 
 ### Java 9
 - [Introduction to Jigsaw](http://openjdk.java.net/projects/jigsaw/quick-start)
@@ -112,6 +113,8 @@ Main documentation for reference, with among other:
 - The [reference documentation](https://docs.spring.io/spring-batch/trunk/reference/html) on [spring.io](https://docs.spring.io) website
 - An in-depth [introduction to batch within Java EE 7](https://jaxenter.com/java-ee-7-introduction-to-batch-jsr-352-106192.html)
 - Another [Overview of the underlying JSR 352 concepts](https://blogs.oracle.com/arungupta/batch-applications-in-java-ee-7-undertanding-jsr-352-concepts:-totd-192) that are now implemented by the Spring Batch project 
+- A very easy to understand [first round](http://malsolo.com/blog4java/?p=260), using same data as everybody else. 
+
 
 ## To go further
 

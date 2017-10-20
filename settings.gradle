@@ -1,1 +1,2 @@
-include 'net.sinou.tutorials'
+include 'tutorials'
+include 'playground'

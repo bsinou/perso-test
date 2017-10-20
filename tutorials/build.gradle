@@ -1,0 +1,38 @@
+apply plugin: 'java'
+apply plugin: 'osgi'
+
+version = rootProject.version
+description = 'Some basic classes used in various tutorials'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+
+build {
+	// Workaround to automatically generate the manifest for Eclipse at each build
+	// TODO find a cleaner way
+	doLast {
+		copy {
+			from 'build/tmp/jar/'
+        	include 'MANIFEST.MF'
+        	into 'META-INF/'
+    	}
+	}
+}
+
+jar {
+    manifest { 
+        name = 'Tutorials'
+        symbolicName ='tutorials' 
+        // instruction 'Bundle-Version', rootProject.version
+        instruction 'Bundle-Vendor', 'sinou.net'
+        // instruction 'Bundle-Description', 'classes used in various tutorials'
+        instruction 'Bundle-DocURL', 'http://www.sinou.net'
+    }
+}

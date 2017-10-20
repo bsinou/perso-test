@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'osgi'
 
 version = rootProject.version
-description = 'Some basic classes used in various tutorials'
+description = 'Some tests'
 
 
 repositories {
@@ -28,11 +28,9 @@ build {
 
 jar {
     manifest { 
-        name = 'Tutorials'
-        symbolicName ='net.sinou.tutorials' 
-        // instruction 'Bundle-Version', rootProject.version
-        instruction 'Bundle-Vendor', 'MyCompany'
-        // instruction 'Bundle-Description', 'classes used in various tutorials'
-        instruction 'Bundle-DocURL', 'http://www.example.com'
+        name = 'Playground'
+        symbolicName ='playground' 
+        instruction 'Bundle-Vendor', 'sinou.net'
+        instruction 'Bundle-DocURL', 'http://www.sinou.net'
     }
 }

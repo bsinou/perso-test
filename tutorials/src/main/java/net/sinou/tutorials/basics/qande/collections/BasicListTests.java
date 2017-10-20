@@ -42,7 +42,12 @@ public class BasicListTests {
 		}
 	}
 
-	/** Launches tests */
+	/**
+	 * Launches tests
+	 * 
+	 * @param args
+	 *            launcher parameters
+	 */
 	public static void main(String[] args) {
 		BasicListTests btl = new BasicListTests();
 		btl.testListRemoval();
@@ -122,13 +127,11 @@ public class BasicListTests {
 		int rating;
 	}
 
-	private void dummy(List<Album> albums) {
-		
-		// Most elegant solution	
-		List<Album> sortedFavs = albums.stream()
-				.filter(a -> a.tracks.stream().anyMatch(t -> t.rating >= 4))
-				.sorted(Comparator.comparing(a -> a.name))
-				.collect(Collectors.toList());
+	void dummy(List<Album> albums) {
+		// More elegant solution
+		// List<Album> sortedFavs =
+		albums.stream().filter(a -> a.tracks.stream().anyMatch(t -> t.rating >= 4))
+				.sorted(Comparator.comparing(a -> a.name)).collect(Collectors.toList());
 
 		List<Album> favs = albums.stream()
 				.filter(a -> a.tracks.stream().filter(t -> t.rating >= 4).findFirst().isPresent())
