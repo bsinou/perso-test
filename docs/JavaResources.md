@@ -1,4 +1,4 @@
-# Java resources.
+# Java resources
 
 ## Disclaimer
 The Java world is a very rich and complex environment. So one might regularly refer to resources, documentation and tutorials in order to efficiently solve day to day problems.
