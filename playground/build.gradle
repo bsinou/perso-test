@@ -10,7 +10,14 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    compile (
+	)
+
+    testCompile (
+		"junit:junit:4.11"
+	)
+    
 }
 
 
@@ -34,3 +41,12 @@ jar {
         instruction 'Bundle-DocURL', 'http://www.sinou.net'
     }
 }
+
+// copy all used dependencies to a known folder
+task copyToLib(type: Copy) {
+    into "$buildDir/libs"
+    from configurations.runtime
+}
+
+compileJava.dependsOn(clean)
+build.dependsOn(copyToLib)
