@@ -1,5 +1,9 @@
 # Design resources
 
+## Internet current buzz words
+ - [an introduction to http/2](https://developers.google.com/web/fundamentals/performance/http2/) 
+ - [Introducing redux](https://blog.andyet.com/2015/08/06/what-the-flux-lets-redux/)
+
 ## Rest concepts 
 - [HAL specification](http://stateless.co/hal_specification.html)
 - A very broad tutorial on [how to integrate Spring with React](https://spring.io/guides/tutorials/react-and-spring-data-rest/)
