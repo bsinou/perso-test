@@ -3,10 +3,9 @@ package net.sinou.tutorials.basics.qande.concurrency;
 /** Basic 2 threads example from the Oracle tutorial */
 public class SimpleThreadExample {
 
-	// Display a message, preceded by
-	// the name of the current thread
+	/** Displays a message, preceded by the name of the current thread */
 	static void threadMessage(String message) {
-		String threadName = Thread.currentThread().getName();
+		String threadName = Thread.currentThread().getName() + "_" + Thread.currentThread().getId() ;
 		System.out.format("%s: %s%n", threadName, message);
 	}
 
@@ -33,7 +32,7 @@ public class SimpleThreadExample {
 		// default: one hour
 		long patience = 1000 * 60 * 60;
 		// 6 seconds...
-		// long patience = 1000 * 6;
+		patience = 1000 * 6;
 
 		// If command line argument present, gives patience in seconds.
 		if (args.length > 0) {

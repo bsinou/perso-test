@@ -1,8 +1,17 @@
 # JavaScript resources
 
+## General Javascript
+
+### Promises 
+-[About promises](https://promisesaplus.com/)
+-[A tutorial on Promises](http://know.cujojs.com/tutorials/promises/consuming-promises)
+
+## Vue.js
+A community driven alternative to React and Angular
+- [Official website](https://vuejs.org)
+
 ## JQuery
 - [Element selector reference](https://www.w3schools.com/jquery/jquery_ref_selectors.asp)
-
 
 ## Angular
 - [A good overview on Angular](https://www.yearofmoo.com/2012/08/use-angularjs-to-power-your-web-application.html)
