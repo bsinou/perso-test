@@ -14,6 +14,7 @@
  
 ### PWA ###
 - [Basic tutorial](https://codebrahma.com/building-progressive-web-app-react/)
+- [A more complete one](https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-i-introduction-50679aef2b12)
 
 ## SysAdmin
 

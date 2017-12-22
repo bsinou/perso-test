@@ -9,6 +9,7 @@
 ## Vue.js
 A community driven alternative to React and Angular
 - [Official website](https://vuejs.org)
+- [Tons of examples](https://vuejsexamples.com/)
 
 ## JQuery
 - [Element selector reference](https://www.w3schools.com/jquery/jquery_ref_selectors.asp)
