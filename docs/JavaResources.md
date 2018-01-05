@@ -90,7 +90,8 @@ About OAuth:
 
 ### Gradle
 - Gradle [User Guide](https://docs.gradle.org/current/userguide/userguide.html)
-- [the Groovy language](http://docs.groovy-lang.org/latest/html/documentation/index.html#_introduction)
+- [The Groovy language](http://docs.groovy-lang.org/latest/html/documentation/index.html#_introduction)
+- To use gradle in Eclipse IDE via the Buildship plugin, these page are good starting points: [EclipseProject](https://docs.gradle.org/current/dsl/org.gradle.plugins.ide.eclipse.model.EclipseProject.html) and [Eclipse classpath](https://docs.gradle.org/current/dsl/org.gradle.plugins.ide.eclipse.model.EclipseClasspath.html)
 
 ### Maven
 
